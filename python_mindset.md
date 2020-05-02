@@ -1,4 +1,4 @@
-1. **Watch Carol Dweck on the Growth Mindset{:target="_blank"} (10.5 minutes)**
+ ## Carol Dweck on the Growth Mindset{:target="_blank"} (10.5 minutes)
 
 - Power of “not yet” vs tyranny of “now”   
 - When faced with challenge - those that have fixed mindset will likely run away from the problem or feel debilitated by it.
@@ -8,7 +8,7 @@
 Don’t praise intelligence ie don’t praise outcomes.
 But praise process - focus, perseverance, ability to keep trying, effort, strategy and progress
 
-2. **Watch Angela Lee Duckworth on Grit** 
+## Angela Lee Duckworth on Grit** 
 
 - https://www.ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance#t-5024
 
@@ -18,16 +18,16 @@ is engaging in your passion and perseverance while focusing on the long term goa
 
 - Ability to learn and grow in the face of challenge is growth mindset because it is belief that learning does not end with failing.
 
-3. **Alain de Botton on Redefining Success:**
+## Alain de Botton on Redefining Success:**
 
 - https://www.ted.com/talks/alain_de_botton_a_kinder_gentler_philosophy_of_success
 
-- **Why are we victims of career crises?**  
+#### Why are we victims of career crises?**  
 - Because of “job snobbery”- we see people bestow “love” and affection respect and attachment because of their status in the social hierarchy.    
 - Stress is due to false feeling of equality when we are actually not equal and that causes envy.  We are less likely to feel envious of someone who is different than us than when we are next to people similar to us.  
 - Success - you can’t be successful at everything.  You will always lose out in something.  And ideas of what we are successful is not our own but taken from movies, videos, and society.  We should focus on our successes by focusing introspectively about what we want for ourselves.   
 
-4. **Listen to The Drs. Sarah on Impostor Syndrome - Pt 1 and 2**   
+## Drs. Sarah on Impostor Syndrome - Pt 1 and 2**   
 
 - https://soundcloud.com/drssarahcare/self-care-with-drs-sarah-impostor-syndrome-part-i
 
