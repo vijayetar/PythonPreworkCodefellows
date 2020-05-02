@@ -27,7 +27,7 @@ is engaging in your passion and perseverance while focusing on the long term goa
 - Stress is due to false feeling of equality when we are actually not equal and that causes envy.  We are less likely to feel envious of someone who is different than us than when we are next to people similar to us.  
 - Success - you can’t be successful at everything.  You will always lose out in something.  And ideas of what we are successful is not our own but taken from movies, videos, and society.  We should focus on our successes by focusing introspectively about what we want for ourselves.   
 
-4. **Listen to The Drs. Sarah on Impostor Syndrome - Pt 1**   
+4. **Listen to The Drs. Sarah on Impostor Syndrome - Pt 1 and 2**   
 
 - https://soundcloud.com/drssarahcare/self-care-with-drs-sarah-impostor-syndrome-part-i
 
