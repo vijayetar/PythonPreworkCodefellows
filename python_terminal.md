@@ -1,4 +1,4 @@
-# Prework - The Command Line
+# Vij Prework - The Command Line
 
 ## Tasks
 
@@ -7,7 +7,9 @@ Although this course is primarily focused on Python, because the work being done
 The assignment in this Pre-work will introduce you to some of the more common commands involved in traversing directories and manipulating files on your computer.
 
 ## Submitting Your Work
-For each of the following segments of [Bash Command Line Tutorials](https://ryanstutorials.net/linuxtutorial/){:target="_blank"} on ryanstutorials.net, you will completely read through and complete each of the activities in your own terminal. As you complete each segment's activities, take a moment to document your learnings and observations.
+For each of the following segments of [Bash Command Line Tutorials](https://ryanstutorials.net/linuxtutorial/){:target="_blank"} on ryanstutorials.net, you will completely read through and complete each of the activities in your own terminal.  
+
+As you complete each segment's activities, take a moment to **_document your learnings and observations_**.
 
 1. The Command Line
 1. Basic Navigation
