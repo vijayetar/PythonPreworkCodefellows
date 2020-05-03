@@ -1,21 +1,11 @@
 # Vij Prework - The Command Line
 
-## Tasks
 
-Although this course is primarily focused on Python, because the work being done is on the server-side you must know how to interact with your computer. _Enter: the Command Line._
-
-The assignment in this Pre-work will introduce you to some of the more common commands involved in traversing directories and manipulating files on your computer.
-
-## Submitting Your Work
-For each of the following segments of [Bash Command Line Tutorials](https://ryanstutorials.net/linuxtutorial/){:target="_blank"} on ryanstutorials.net, you will completely read through and complete each of the activities in your own terminal.  
-
-As you complete each segment's activities, take a moment to **_document your learnings and observations_**.
-
-1. **The Command Line**
+1. **[The Command Line](https://ryanstutorials.net/linuxtutorial/commandline.php)**
 * bash is short for Bourne again shell  
 * the up and down arrows are awesome short cuts to repeat commands  
 
-2. **Basic Navigation**
+2. **[Basic Navigation](https://ryanstutorials.net/linuxtutorial/navigation.php)**
 * pwd is Print Working Directory  
 * ls is the command line followed by [options][locations]  
 * ls -l will list out all the files with more information  
@@ -28,7 +18,7 @@ As you complete each segment's activities, take a moment to **_document your lea
 * ls ~ (refers to contents of /users/vijayeter)
 * ls / (lists contents at / level before users)  
 
-3. **More About Files**  
+3. **[More About Files](https://ryanstutorials.net/linuxtutorial/aboutfiles.php)**  
 * when you have file or directory names with a space in them, and then you later try to open them, the terminal will see the space and word following it as an argument rather than part of the name.  So for it to work - either type \ before the space, or use tab to auto complete it and it will fill using \ or enter the whole word in quotes.   
     *  for example: cd 'Holiday Photos' or cd Holiday\ Photos
 * case sensitive
@@ -36,14 +26,26 @@ As you complete each segment's activities, take a moment to **_document your lea
 * in linux, there are no extensions  
 * \. are hidden files
 
-4. **Manual Pages**  
+4. **[Manual Pages](https://ryanstutorials.net/linuxtutorial/manual.php)**  
 * to see manual pages for a command type
   * for example: man ls
   * type q to quit manual pages  
 * you can type man -k [search term] to find terms in the manual pages especially when you cannot remember the command  
+* ls -alh lists all files including hidden files and the sizes are expressed in KB
 
-1. File Manipulation
-1. Vi Text Editor
+5. **[File Manipulation](https://ryanstutorials.net/linuxtutorial/filemanipulation.php)**  
+* touch to create file
+* mkdir create a directory
+* mkdir -pv ~/blah/blahblah/blahblahblah
+  * here we made parent directories using -p command and -v to explain what is happening and then we can also determine location based on the absolute or relative path we choose  
+* cp\<source>\<destination> and cp -r for recursive for copying directories  
+* move files or directories using mv\<source>\<destination>  
+* rename directories using the move option  
+* we can also run commands when we are not in the location where the change is happening  
+* rmdir is to remove directories and rm to remove files and rm -r to remove directories with all the contents.  
+
+6. **[Vi Text Editor](https://ryanstutorials.net/linuxtutorial/vi.php)**  
+
 1. Wildcards
 1. Permissions
 1. Filters
