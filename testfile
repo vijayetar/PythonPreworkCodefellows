@@ -1,3 +1,0 @@
-#!/bin/bash
-echo Here are the files in your current directory:
-ls
