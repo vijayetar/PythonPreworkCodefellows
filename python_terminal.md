@@ -111,10 +111,109 @@ x execute - you may execute or run the file if it is a program or script.
   > * chmod 240 frog.png => using binary shorthand for user(2), group (4), others(0)  
 
 9. **[Filters](https://ryanstutorials.net/linuxtutorial/filters.php)**  
+* allows processing and formatting data  
+* some commands
+  >head  : head \[-number of lines to print] \[path]    
+tail  : View the last n lines of data.  
+tail [-number of lines to print] \[path]  
+sort  : sort \[-options] \[path]  
+nl  : nl \[-options] \[path]    
+wc  : Print a count of lines, words and characters.  
+wc \[-options] \[path]  
+cut : Cut the data into fields and only display the specified fields.  
+cut \[-options] \[path]  
+sed : Do a search and replace on the data.  
+sed \<expression> \[path]  
+uniq  :  Remove duplicate lines. 
+uniq \[options] \[path]  
+tac :  Print the data in reverse order.  
+tac \[path]  
 
-1. Grep and Regular Expressions
-1. Piping and Redirection
-1. Process Management
-1. Scripting
-1. Cheat Sheet
+10. **[Grep and Regular Expressions](https://ryanstutorials.net/linuxtutorial/grep.php)**  
+* Regular expressions are similar to wildcards that they allow us to create patterns.  
+* egrep is a program which will search a given set of data and print every line which contains a given pattern.  
+  >egrep [command line options] \<pattern> \[path]  
+  >e.g. egrep -n 'mellon' mysampledata.txt  
+  egrep '^[A-K]' mysampledata.txt __(using regex)__
+
+* REGEX rules:  
+  >. (dot) - a single character.  
+? - the preceding character matches 0 or 1 times only.  
+\* - the preceding character matches 0 or more times.  
+\+ - the preceding character matches 1 or more times.  
+{n} - the preceding character matches exactly n times.  
+{n,m} - the preceding character matches at least n times and not more than m times.  
+\[agd] - the character is one of those included within the square brackets.  
+\[^agd] - the character is not one of those included within the square brackets.  
+\[c-f] - the dash within the square brackets operates as a range. In this case it means either the letters c, d, e or f.  
+\() - allows us to group several characters to behave as one.  
+| (pipe symbol) - the logical OR operation.  
+^ - matches the beginning of the line.  
+$ - matches the end of the line.  
+
+11. **[Piping and Redirection](https://ryanstutorials.net/linuxtutorial/piping.php)**  
+
+* When piping and redirecting, the actual data will always be the same, but the formatting of that data may be slightly different to what is normally printed to the screen. 
+
+12. **[Process Management](https://ryanstutorials.net/linuxtutorial/processes.php)**  
+* This running instance of a program is called a process and it's processes which we manage.  
+* If we would like to get a snapshot of what is currently happening on the system we may use a program called __top__.  
+  > top
+* __ps__ which stands for processes, will show you just the processes running in your current terminal (which is usually not very much). If we add the argument __aux__ then it will show a complete system view which is a bit more helpful.
+  >ps \[aux]
+* Use __kill__ to end a process that is crashed after identifying the process id(PID).  It is the number next to the owner of the process.    
+  >kill \[signal] \<PID>  __OR__  
+  kill -9 \<PID> __(-9 will ensure it is truly gone)__  
+
+* We can move jobs between the foreground and background as well. If you press __CTRL + z__ then the currently running foreground process will be paused and moved into the background. We can then use a program called __fg__ which stands for foreground to bring background processes into the foreground.  
+  >fg \<job number>  
+* example :
+  >sleep 15 &  
+[1] 21637  
+sleep 10  
+(you press CTRL + z, notice the prompt comes back.)  
+jobs  
+[1]- Running sleep 15 &  
+[2]+ Stopped sleep 10  
+fg 2  
+[1] Done sleep 15  
+
+13. **[Scripting](https://ryanstutorials.net/linuxtutorial/scripting.php)**  
+
+* A Bash script is a document stating what to say and do, read and acted upon (or executed) by the computer.  
+* A Bash script is interpreted (read and acted upon) by something called an interpreter.  
+* __Anything you can run on the command line you may place into a script and they will behave exactly the same. Vice versa, anything you can put into a script, you may run on the command line and again it will perform exactly the same.__
+* The shebang (#!) tells the system that directly after it will be a path to the interpreter to be used
+  >#!/bin/bash  
+* It is typical to put a __.sh__ extension on our scripts  
+* Comments are easy to put in, all you need to do is place a hash __( # )__ then anything after that is considered a comment.  
+* scripts need execute priveleges before we can run it
+  > chmod 755  
+* Variables:  
+  > $0 - The name of the script.
+$1 - $9 - Any command line arguments given to the script.   
+$1 is the first argument, $2 the second and so on.  
+$# - How many command line arguments were given to the script.  
+$* - All of the command line arguments.  
+
+* Save the output of a command to a variable and the mechanism we use for that is the backtick ( ` )  
+  >cat backticks.sh  
+\#!/bin/bash  
+\# A simple demonstration of using backticks
+\# Ryan 4/5/2020  
+lines=\`cat $1 | wc -l`  
+echo The number of lines in the file $1 is $lines  
+__./backticks.sh testfile.txt__  
+
+* Output:
+  >#### The number of lines in the file testfile.txt is 12  
+* >date: Prints the date.  
+if [ ] then else fi: Perform basic conditional logic.   
+  
+  
+>>__I thoroughly enjoyed the scripting part of the reading material and intend to dive deeper into the Bash Scripting tutorial in my spare time!!__
+
+14. **[Cheat Sheet](https://ryanstutorials.net/linuxtutorial/cheatsheet.php)**  
+
+  >I sincerely appreciate the cheat sheet.
 
